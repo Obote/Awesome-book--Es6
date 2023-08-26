@@ -1,3 +1,6 @@
+import { links, containers, bookHeading } from './modules/navbar.js';
+import BookStore from './modules/bookstore.js';
+import dateData from './modules/datetime.js';
 
 const hideAllContainers = () => {
   containers.forEach((container) => {
